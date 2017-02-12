@@ -1,24 +1,20 @@
-# README
+# Rails Devise token seed
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Backend part for the Angular & Rails user authentification tutorial: https://medium.com/@avatsaev/angular-2-and-ruby-on-rails-user-authentication-fde230ddaed8#.bq7ibrz5e
 
-Things you may want to cover:
+## Install
 
-* Ruby version
+```
+bundle install
+```
 
-* System dependencies
+## Init the databse 
 
-* Configuration
+```
+rails db:create && rails db:migrate && rails db:seed
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Run
+```
+rails s
+```
